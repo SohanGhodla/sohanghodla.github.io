@@ -1,0 +1,38 @@
+---
+import { SITE } from "@config";
+import Main from "@layouts/Main.astro";
+import Layout from "@layouts/Layout.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+
+export interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <Header activeNav="publications" />
+  <Main pageTitle="Publications">
+    <section id="publications" class="prose mb-28 max-w-5xl prose-img:border-0">
+      <slot />
+    </section>
+  </Main>
+  <Footer />
+</Layout>
+
+<style>
+  .pagination-wrapper {
+    @apply mb-8 mt-auto flex justify-center;
+  }
+  .disabled {
+    @apply pointer-events-none select-none opacity-50 hover:text-skin-base group-hover:fill-skin-base;
+  }
+  .disabled-svg {
+    @apply group-hover:!fill-skin-base;
+  }
+</style>

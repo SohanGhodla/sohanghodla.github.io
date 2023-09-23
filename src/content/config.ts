@@ -1,8 +1,8 @@
 import { defineCollection } from "astro:content";
-import { blogSchema } from "./_schemas";
+import { researchSchema } from "./_schemas";
 
-const blog = defineCollection({
-  schema: blogSchema,
+const research = defineCollection({
+  schema: researchSchema,
 });
 
-export const collections = { blog };
+export const collections = { research };

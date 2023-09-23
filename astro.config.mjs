@@ -1,13 +1,15 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
-import remarkCollapse from "remark-collapse";
+import remarkMath from "remark-math"
+import rehypeKatex from "rehype-katex"
 import sitemap from "@astrojs/sitemap";
+import tailwind from "@astrojs/tailwind";
+import { defineConfig } from "astro/config";
+import remarkCollapse from "remark-collapse";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  site: "https://sohanghodla.github.io", // replace this with your deployed domain
   integrations: [
     tailwind({
       config: {
@@ -19,6 +21,7 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
+      remarkMath,
       remarkToc,
       [
         remarkCollapse,
@@ -26,6 +29,9 @@ export default defineConfig({
           test: "Table of contents",
         },
       ],
+    ],
+    rehypePlugins: [
+      rehypeKatex,
     ],
     shikiConfig: {
       theme: "one-dark-pro",

@@ -15,4 +15,12 @@ export const blogSchema = z
   })
   .strict();
 
+export const researchSchema = z
+  .object({
+    title: z.string(),
+    pubDatetime: z.date(),
+  })
+  .strict();
+
 export type BlogFrontmatter = z.infer<typeof blogSchema>;
+export type ResearchFrontmatter = z.infer<typeof researchSchema>;

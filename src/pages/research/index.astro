@@ -1,0 +1,32 @@
+---
+import { SITE } from "@config";
+import Hr from "@components/Hr.astro";
+import Main from "@layouts/Main.astro";
+import { getCollection } from "astro:content";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "../../layouts/Layout.astro";
+import getSortedPosts from "@utils/getSortedPosts";
+
+const articles = await getCollection("research");
+const sortedArticles = getSortedPosts(articles);
+const responses = await Promise.all(sortedArticles.map(article => article.render()));
+---
+
+<Layout title={`My Research | ${SITE.title}`}>
+  <Header activeNav="research" />
+  <Main pageTitle="My Research">
+    <section id="articles" class="prose mb-28 max-w-5xl prose-img:border-0 px-0">
+      {
+        responses.map(({ Content, remarkPluginFrontmatter }, index) => (
+          <>
+            <h2 class="!text-skin-accent !mb-8">{remarkPluginFrontmatter.title}</h3>
+            <Content />
+            { index < (responses.length - 1) && <Hr />}
+          </>
+        ))
+      }
+    </section>
+  </Main>
+  <Footer />
+</Layout>
