@@ -12,3 +12,5 @@ title: "Publications"
 - [H F Stevance, <b class="text-skin-accent">S Ghodla</b>, S Richards, J J Eldridge, M M Briel, P Tang, _VFTS 243 as predicted by the BPASS fiducial models, Monthly Notices of the Royal Astronomical Society, Volume 520, Issue 3, April 2023, Pages 4740–4746_](https://doi.org/10.1093/mnras/stad362)
 
 - [<b class="text-skin-accent">Sohan Ghodla</b>, Wouter G J van Zeist, J J Eldridge, Héloïse F Stevance, Elizabeth R Stanway, _Forward modelling the O3(a+b) GW transient mass distributions with BPASS by varying compact remnant mass and SNe kick prescriptions, Monthly Notices of the Royal Astronomical Society, Volume 511, Issue 1, March 2022, Pages 1201–1209_](https://doi.org/10.1093/mnras/stac120)
+
+For an updated list, please visit the ADS database [**here**](https://ui.adsabs.harvard.edu/search/q=author%3A%22Ghodla%2C%20Sohan%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)
