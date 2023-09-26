@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://sohanghodla.github.io/",
   author: "Sohan Ghodla",
-  title: "Research Showcase Website",
+  title: "Sohan Ghodla",
   content:
     "A personal website aimed at showcasing research output of Sohan Ghodla in Physics, Astrophysics, Gravitational waves, compact objects, accretion disks and black holes.",
   lightAndDarkMode: true,
