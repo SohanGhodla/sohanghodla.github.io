@@ -13,4 +13,4 @@ title: "Publications"
 
 - [<b class="text-skin-accent">Sohan Ghodla</b>, Wouter G J van Zeist, J J Eldridge, Héloïse F Stevance, Elizabeth R Stanway, _Forward modelling the O3(a+b) GW transient mass distributions with BPASS by varying compact remnant mass and SNe kick prescriptions, Monthly Notices of the Royal Astronomical Society, Volume 511, Issue 1, March 2022, Pages 1201–1209_](https://doi.org/10.1093/mnras/stac120)
 
-For an updated list, please visit the ADS database [**here**](https://ui.adsabs.harvard.edu/search/q=author%3A%22Ghodla%2C%20Sohan%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)
+For an updated list, please visit [**Inspire**](https://inspirehep.net/authors/2046230), [**ADS**](https://ui.adsabs.harvard.edu/search/q=author%3A%22Ghodla%2C%20Sohan%22&sort=date%20desc%2C%20bibcode%20desc&p_=0) or [**Google Scholar**](https://scholar.google.com/citations?user=K62YvBgAAAAJ&hl=en)
