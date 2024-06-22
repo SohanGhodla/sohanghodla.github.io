@@ -1,6 +1,4 @@
-# Sohan Ghodla
-
-## Develop locally
+## To develop locally
 
 Install node
 
