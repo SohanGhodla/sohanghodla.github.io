@@ -3,6 +3,12 @@ layout: ../layouts/PublicationsLayout.astro
 title: "Publications"
 ---
 
+- [<b class="text-skin-accent">Sohan Ghodla</b>, Galactic and extragalactic probe of dark matter with LISA's binary black holes](https://arxiv.org/abs/2410.15562)
+
+- [<b class="text-skin-accent">Sohan Ghodla</b>, The effect of interstellar medium on LVK’s black holes, Monthly Notices of the Royal Astronomical Society, 532 (2024) 1, 439-450 ](https://arxiv.org/abs/2410.15562)
+
+- [<b class="text-skin-accent">Sohan Ghodla</b>, J J Eldridge, _The effect of stellar rotation on black hole mass and spin, Monthly Notices of the Royal Astronomical Society, 534 (2024) 3, 1868-1888](https://arxiv.org/abs/2312.10400)
+
 - [<b class="text-skin-accent">Sohan Ghodla</b>, J J Eldridge, _Sustained super-Eddington accretion around neutron stars & black holes, Monthly Notices of the Royal Astronomical Society, Volume 523, Issue 2, August 2023, Pages 1711–1717_](https://doi.org/10.1093/mnras/stad1558)
 
 - [<b class="text-skin-accent">Sohan Ghodla</b>, Richard Easther, M. M. Briel, and J. J. Eldridge, _Observational Implications of Cosmologically Coupled Black Holes, The Open Journal of Astrophysics, Volume 6, July 2023_](https://doi.org/10.21105/astro.2306.08199)
