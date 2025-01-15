@@ -3,7 +3,7 @@ layout: ../layouts/PublicationsLayout.astro
 title: "Publications"
 ---
 
-- [<b class="text-skin-accent">Sohan Ghodla</b>, Galactic and extragalactic probe of dark matter with LISA's binary black holes](https://arxiv.org/abs/2410.15562)
+- [<b class="text-skin-accent">Sohan Ghodla</b>, Galactic and extragalactic probe of dark matter with LISA's binary black holes (2024)](https://arxiv.org/abs/2410.15562)
 
 - [<b class="text-skin-accent">Sohan Ghodla</b>, The effect of interstellar medium on LVK’s black holes, Monthly Notices of the Royal Astronomical Society, 532 (2024) 1, 439-450 ](https://arxiv.org/abs/2410.15562)
 
